@@ -1,0 +1,94 @@
+body {
+    border: 1px red solid;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+    border: 1px green solid;
+}
+
+header {
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menu {
+    text-decoration: none;
+    color: rgb(6, 83, 6)
+}
+
+
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+aside {
+    width: 30%;
+}
+
+section {
+    flex: 1;
+}
+
+.section {
+    border: 1px rgb(211, 46, 46) solid;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70%;
+    justify-content: center;
+
+}
+
+.section-1 {
+    border: 1px blue solid;
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    justify-content: center;
+
+}
+
+.section-2,
+.section-3 {
+    border: 1px blue solid;
+    display: flex;
+    width: 49%;
+    justify-content: center;
+
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-around;
+
+}
